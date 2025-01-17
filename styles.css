@@ -1,0 +1,59 @@
+
+body{
+    background-color: 00224D;
+}
+
+#imagearea{
+    width: 375px;
+    height: 200px;
+    border: 1px solid blueviolet;
+    background-position: center;
+    background-size: cover;
+}
+
+.animated-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    animation: fadein 2s ease-in-out infinite alternate;
+  }
+  
+  .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+
+
+.hover-shadow {
+
+  top: 0%;
+  left: 0%;
+
+  transform: translateX(0px);
+  transition: box-shadow 0.5s ease;
+  background-color: #ffffff;
+  cursor: pointer;
+ 
+}
+
+.hover-shadow:hover {
+  box-shadow: 6px 6px 40px 10px rgba(38, 124, 204, 0.5);
+  z-index: 1;
+  border-radius: 20px;
+}
+.pad{
+  padding: 20px;
+}
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  
